@@ -1,2 +1,3 @@
 # myblog
-·雏形 运用纯html+css制成
+## This is an embryonic form to be improved and perfected.
+### Using pure HTML and CSS to complete.
