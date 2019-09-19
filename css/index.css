@@ -1,6 +1,5 @@
 /*-----------------------*/
 body {
-    height: 2000px;
     font-family: "montserrat";
     background-image: linear-gradient(125deg, #2c3e50, #27ae60, #2980b9, #e74c3c, #8e44ad);
     background-size: 400%;
@@ -20,43 +19,7 @@ body {
 }
 
 /*body end*/
-.viewport {
-    /*position: relative;*/
-    overflow: hidden;
-}
-.wrap {
-    position: relative;
-    width: 300px;
-    overflow: hidden;
-    animation: carousel linear 5s infinite 0s normal;
-}
-.wrap img {
-    display: inline-block;
-    width: 600px;
-    height: auto;
-    float: left;
-}
-@keyframes carousel {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: -0px;
-    }
-    40% {
-        left: -100px;
-    }
-    60% {
-        left: -100px;
-    }
-    80% {
-        left: -200px;
-    }
-    100% {
-        left: -200px;
-    }
 
-}
 /*  */
  .l_box h2 {
  	color: #333;
@@ -406,7 +369,7 @@ body {
  	margin: 20px 0
  }
 
- /*上一篇下一篇*/
+ /*脡脧脪禄脝陋脧脗脪禄脝陋*/
  .nextinfo p {
  	padding: 4px 10px;
  	border-radius: 5px;
@@ -417,7 +380,7 @@ body {
  	text-decoration: underline
  }
 
- /*文章评论*/
+ /*脦脛脮脗脝脌脗脹*/
  .news_pl {
  	margin: 10px 0 20px 0;
  	width: 100%;
