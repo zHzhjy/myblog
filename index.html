@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>一个页面</title>
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/comm.js"></script>
+	</head>
+	<body>
+		<header class="header-navigation" id="header">
+			<nav>
+				<div class="logo"><a href="/">Hhy blog</a></div>
+				<ul id="starlist">
+					<li><a href="index.html">网站首页</a></li>
+					<li><a href="view/share.html">我的相册</a></li>
+					<li><a href="view/list.html">我的记录</a></li>
+					<li><a href="view/about.html">关于我</a></li>
+					<li><a href="view/gbook.html">留言</a></li>
+					<li><a href="view/info.html">内容页</a></li>
+					<li><a href="view/infopic.html">爱好</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<aside class="l_box">
+				<div class="search">
+					<form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+						<input name="keyboard" id="keyboard" class="input_text" value="请输入关键字词" style="color: rgb(153, 153, 153);"
+						 onfocus="if(value=='请输入关键字词'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字词'}"
+						 type="text">
+						<input name="show" value="title" type="hidden">
+						<input name="tempid" value="1" type="hidden">
+						<input name="tbname" value="news" type="hidden">
+						<input name="Submit" class="input_submit" value="搜索" type="submit">
+					</form>
+				</div>
+				<div class="about_me">
+					<h2>关于我</h2>
+					<ul>
+						<i><img src="images/4.jpg"></i>
+						<p><b>my</b>，一个咸鱼般的人。</p>
+					</ul>
+				</div>
+				
+				<div class="wdxc">
+					<h2>我的相册</h2>
+					<ul>
+						<li><a href="#"><img src="images/7.jpg"></a></li>
+						<li><a href="#"><img src="images/8.jpg"></a></li>
+						<li><a href="#"><img src="images/9.jpg"></a></li>
+						<li><a href="#"><img src="images/10.jpg"></a></li>
+						<li><a href="#"><img src="images/11.jpg"></a></li>
+						<li><a href="#"><img src="images/12.jpg"></a></li>
+					</ul>
+				</div>
+				<div class="fenlei">
+					<h2>文章分类</h2>
+					<ul>
+						<li><a href="#">学无止境（33）</a></li>
+						<li><a href="#">日记（19）</a></li>
+						<li><a href="#">慢生活（520）</a></li>
+						<li><a href="#">美文欣赏（40）</a></li>
+					</ul>
+				</div>
+				<div class="tuijian">
+					<h2>我的推荐</h2>
+					<ul>
+						<li><a href="https://www.baidu.com/">万能的百度</a></li>
+						<li><a href="https://www.w3school.com.cn/js/index.asp">w3school</a></li>
+						<li><a href="http://fontawesome.dashgame.com/">Font Awesome,一套绝佳的图标字体库和CSS框架</a></li>
+						<li><a href="http://es6.ruanyifeng.com/">ECMAScript 6 入门</a></li>
+						<li><a href="https://cn.vuejs.org/">vue.js官网</a></li>
+						<li><a href="https://www.imooc.com/">贵却还不错的慕课网</a></li>
+						<li><a href="https://www.liaoxuefeng.com/wiki/1022910821149312">廖雪峰的javascript教程</a></li>
+						<li><a href="https://www.jianshu.com/">简书，一些知识的集合</a></li>
+					</ul>
+				</div>
+				<div class="links">
+					<h2>友情链接</h2>
+					<ul>
+						<a href="https://www.baidu.com/" title="https://www.baidu.com/">解决困难的搜索通道</a> <a href="https://developer.mozilla.org/zh-CN/"
+						 title="https://developer.mozilla.org/zh-CN/">MDN</a>
+					</ul>
+				</div>
+				<div class="guanzhu">
+					<h2>扫码关注么么哒？</h2>
+					<ul>
+						<img src="images/wx.jpg">
+					</ul>
+				</div>
+			</aside>
+
+
+			<main class="r_box">
+				
+				<!-- 切割轮播备用 --><!-- <div class="view">
+				    <img src="images/d.jpg" >
+				</div> -->
+				<!-- 切割轮播备用 -->
+				
+				
+				<ul class="text-t">
+					<li><i><a href="#"><img src="images/1.jpg"></a></i>
+						<h3><a href="/">ES6的新特性</a></h3>
+						<p title="const 与 let 变量，模板字面量，解构，对象字面量简写法，for...of循环，展开运算符，剩余参数(可变参数)，ES6箭头函数，javascript标准函数this,默认值与解构,Javascript类,super 和 extends。">const
+							与 let 变量，模板字面量，解构，对象字面量简写法，for...of循环，展开运算符，剩余参数(可变参数)，ES6箭头函数，javascript标准函数this,默认值与解构,Javascript类,super 和
+							extends。</p>
+					</li>
+					<li><i><a href="#"><img src="images/2.jpg"></a></i>
+						<h3><a href="/">Vue指令大全</a></h3>
+						<p title="内含v-text,v-html,v-pre，v-cloak，v-once，v-if，v-else，v-else-if，v-show，v-for，v-bind，v-model，v-on">内含v-text,v-html,v-pre，v-cloak，v-once，v-if，v-else，v-else-if，v-show，v-for，v-bind，v-model，v-on</p>
+					</li>
+					<li><i><a href="#"><img src="images/2.jpg"></a></i>
+						<h3><a href="/">VUE相关的一些坑死人的“大坑”</a></h3>
+						<p title="1、父组件引入子组件,利用v-for生成的li列表，2、需要给每个li添加不存在的属性，使用,3、父组件给子组件传值（静态值，即data中的数据）,4、如果父组件向子组件中传递的是动态变化的值，那又当如何？,5、【获取dom节点的方法】,6、使用vue-resource请求数据的步骤,7、使用axios请求数据的步骤,8、父组件主动获取子组件的方法和数据,9、【非父子组件传值（兄弟组件），即事件广播】,10、vue路由配置,11、动态路由的配置与获取,12、路由的get传值,动态路由编程式导航（登录页面点击按钮跳转）">1、父组件引入子组件,利用v-for生成的li列表，2、需要给每个li添加不存在的属性，使用,3、父组件给子组件传值（静态值，即data中的数据）,4、如果父组件向子组件中传递的是动态变化的值，那又当如何？</p>
+					</li>
+					<li><i><a href="#"><img src="images/3.jpg"></a></i>
+						<h3><a href="/">javascript相关</a></h3>
+						<p title="函数定义和调用，变量作用域和解构赋值">函数定义和调用，变量作用域和解构赋值</p>
+					</li>
+					<li><i><a href="#"><img src="images/3.jpg"></a></i>
+						<h3><a href="/">JavaScript高级函数</a></h3>
+						<p title="map/reduce，filter，sort，Array">map/reduce，filter，sort，Array</p>
+					</li>
+					<li><i><a href="#"><img src="images/3.jpg"></a></i>
+						<h3><a href="/">javascript闭包</a></h3>
+						<p>函数作为返回值，闭包</p>
+					</li>
+					<li><i><a href="#"><img src="images/4.jpg"></a></i>
+						<h3><a href="/">CSS3 前缀 o webkit moz ms 分别对应不同的内核</a></h3>
+						<p>
+							-moz-对应 Firefox,
+							-webkit-对应 Safari and Chrome
+							-o- for Opera（记忆中，在一篇国外的文档上看到，欧朋是没有明确用 -o 这个前缀的，把他写上是为了向后兼容，适应未来；现在一时翻不到那篇文章了，感兴趣的可以多了解下）
+							-ms- for Internet Explorer
+						</p>
+					</li>
+					<li><i><a href="#"><img src="images/3.jpg"></a></i>
+						<h3><a href="/">JS中的常见算法</a></h3>
+						<p>1,插入排序，2,冒泡排序、3,快速排序</p>
+					</li>
+				</ul>
+			</main>
+		</article>
+		<footer>
+			<p>Design by <a href="#" target="_blank">Myblog页面</a> <a href="#">无备号滑稽</a></p>
+		</footer>
+		<a href="#" class="cd-top">Top</a>
+
+
+	</body>
+</html>

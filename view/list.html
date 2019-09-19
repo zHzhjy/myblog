@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的日志</title>
+		<link href="../css/base.css" rel="stylesheet">
+		<link href="../css/index.css" rel="stylesheet">
+		<script src="../js/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../js/comm.js"></script>
+		<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+	</head>
+	<body>
+		<header class="header-navigation" id="header">
+			<nav>
+				<div class="logo"><a href="../index.html">Hhy blog</a></div>
+				<h2 id="mnavh"><span class="navicon"></span></h2>
+				<ul id="starlist">
+					<li><a href="../index.html">网站首页</a></li>
+					<li><a href="share.html">我的相册</a></li>
+					<li><a href="list.html">我的记录</a></li>
+					<li><a href="about.html">关于我</a></li>
+					<li><a href="gbook.html">留言</a></li>
+					 <li><a href="info.html">自言自语</a></li>
+					<li><a href="infopic.html">爱好</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<aside class="l_box">
+				<div class="search">
+					<form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+						<input name="keyboard" id="keyboard" class="input_text" value="请输入关键字词" style="color: rgb(153, 153, 153);"
+						 onfocus="if(value=='请输入关键字词'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字词'}"
+						 type="text">
+						<input name="show" value="title" type="hidden">
+						<input name="tempid" value="1" type="hidden">
+						<input name="tbname" value="news" type="hidden">
+						<input name="Submit" class="input_submit" value="搜索" type="submit">
+					</form>
+				</div>
+				<div class="fenlei">
+					<h2>文章分类</h2>
+					<ul>
+						<li><a href="#">从入门到入土（33）</a></li>
+						<li><a href="#">从认知到陌生（19）</a></li>
+						<li><a href="#">修仙生活（520）</a></li>
+						<li><a href="#">美女欣赏（40）</a></li>
+					</ul>
+				</div>
+				<div class="tuijian">
+					<h2>我的推荐</h2>
+					<ul>
+						<li><a href="#">你是什么人便会遇上什么人?</a></li>
+						<li><a href="#">前端面试大全</a></li>
+						<li><a href="#">后端面试大全</a></li>
+						<li><a href="#">VR开发与制作</a></li>
+						<li><a href="#">vlog拍摄与制作</a></li>
+						<li><a href="#">UI开发大全</a></li>
+						<li><a href="#">难受大全</a></li>
+						<li><a href="#">厚黑学大全</a></li>
+						<li><a href="#">心理学大全</a></li>
+						<li><a href="#">福尔摩斯探案全集</a></li>
+						<li><a href="#">美女合集</a></li>
+					</ul>
+				</div>
+				<div class="tuijian">
+					<h2>点击排行</h2>
+					<ul>
+						<li><a href="#">美女合集</a></li>
+						<li><a href="#">前端面试大全</a></li>
+						<li><a href="#">后端面试大全</a></li>
+						<li><a href="#">心理学大全</a></li>
+						<li><a href="#">福尔摩斯探案全集</a></li>
+						<li><a href="#">VR开发与制作</a></li>
+						<li><a href="#">vlog拍摄与制作</a></li>
+						<li><a href="#">比赛收集栏</a></li>
+					</ul>
+				</div>
+				<div class="cloud">
+					<h2>标签云</h2>
+					<ul>
+						<a href="#">杠上开花</a> <a href="/">校园生活</a> <a href="/">html5</a> <a href="#">CSS</a> <a href="#">年轻</a> <a
+						 href="#">暖</a> <a href="#">阳光</a> <a href="#">活泼</a><a href="#">开朗</a> <a href="#">技术</a> <a href="#">热爱</a>
+						<a href="#">羽毛球</a>
+					</ul>
+				</div>
+				<div class="guanzhu">
+					<h2>扫码关注么么哒？</h2>
+					<ul>
+						<img src="../images/wx.jpg">
+					</ul>
+				</div>
+			</aside>
+			<main class="r_box">
+				<li><i><a href="/"><img src="../images/1.jpg"></a></i>
+					<h3><a href="#" title="Es6中let、var和cents的区别">Es6中let、var和cents的区别</a></h3>
+					<p title="1.const定义的变量不可以修改，而且必须初始化。2.var定义的变量可以修改，如果不初始化会输出undefined，不会报错。3.let是块级作用域，函数内部使用let定义后，对函数外部无影响。">1.const定义的变量不可以修改，而且必须初始化。2.var定义的变量可以修改，如果不初始化会输出undefined，不会报错。3.let是块级作用域，函数内部使用let定义后,对函数外部无影响</p>
+				</li>
+				<li><i><a href="https://router.vuejs.org/zh/"><img src="../images/2.jpg"></a></i>
+					<h3><a href="https://router.vuejs.org/zh/" title="https://router.vuejs.org/zh/">vue-router 是什么?它有哪些组件</a></h3>
+					<p title="Vue Router 是 Vue.js 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。包含的功能有：嵌套的路由/视图表模块化的、基于组件的路由配置路由参数、查询、通配符基于 Vue.js 过渡系统的视图过渡效果细粒度的导航控制带有自动降级自定义的滚动条行为">Vue Router 是 Vue.js 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。包含的功能有：嵌套的路由/视图表</p>
+				</li>
+				<li><i><a href="#"><img src="../images/2.jpg"></a></i>
+					<h3><a href="https://www.cnblogs.com/toggle/p/9456386.html">active-class是什么</a></h3>
+					<p>active-class是vue-router模块的router-link组件中的属性，用来做选中样式的切换；</p>
+				</li>
+				<li><i><a href="https://cn.vuejs.org/v2/guide/instance.html#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%BE%E7%A4%BA"><img src="../images/2.jpg"></a></i>
+					<h3><a href="https://cn.vuejs.org/v2/guide/instance.html#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%BE%E7%A4%BA">什么是 vue 生命周期</a></h3>
+					<p title="Vue 实例有一个完整的生命周期，也就是从开始创建、初始化数据、编译模板、挂载Dom→渲染、更新→渲染、卸载等一系列过程，我们称这是 Vue 的生命周期。通俗说就是 Vue 实例从创建到销毁的过程，就是生命周期。">Vue 实例有一个完整的生命周期，也就是从开始创建、初始化数据、编译模板、挂载Dom→渲染、更新→渲染、卸载等一系列过程，我们称这是 Vue 的生命周期。通俗说就是 Vue 实例从创建到销毁的过程，就是生命周期。</p>
+				</li>
+				<li>
+					<h3><a href="#">Es6 函数默认参数</a></h3>
+					<p title="如果函数A的参数默认值是函数B，那么由于函数的作用域是其声明的时候所在的作用域，函数B的作用域就在全局作用域而不是函数A的作用域。">如果函数A的参数默认值是函数B，那么由于函数的作用域是其声明的时候所在的作用域，函数B的作用域就在全局作用域而不是函数A的作用域。</p>
+				</li>
+				<li>
+					<h3><a href="/">ES6箭头函数基本特点</a></h3>
+					<p title="(1). 箭头函数this为父作用域的this，不是调用时的this。(2). 箭头函数不能作为构造函数，不能使用new。(3). 箭头函数没有arguments，caller，callee(4). 箭头函数通过call和apply调用，不会改变this指向，只会传入参数.(5). 箭头函数没有原型属性.(6). 箭头函数不能作为Generator函数，不能使用yield关键字.(7). 箭头函数返回对象时，要加一个小括号.(8). 箭头函数在ES6 class中声明的方法为实例方法，不是原型方法.(9). 多重箭头函数就是一个高阶函数，相当于内嵌函数.">(1). 箭头函数this为父作用域的this，不是调用时的this。(2). 箭头函数不能作为构造函数，不能使用new。(3). 箭头函数没有arguments，caller，callee(4). 箭头函数通过call和apply调用，不会改变</p>
+				<li><i><a href="/"><img src="../images/6.jpg"></a></i>
+					<h3><a href="/">同步和异步的区别</a></h3>
+					<p title="同步是阻塞模式，异步是非阻塞模式;同步就是指一个进程在执行某个请求的时候，若该请求需要一段时间才能返回信息，那么这个进程将会一直等待下去，知道收到返回信息才继续执行下去。异步是指进程不需要一直等下去，而是继续执行下面的操作，不管其他进程的状态。当有消息返回式系统会通知进程进行处理，这样可以提高执行的效率">同步是阻塞模式，异步是非阻塞模式;
+						同步就是指一个进程在执行某个请求的时候，若该请求需要一段时间才能返回信息，那么这个进程将会一直等待下去，</p>
+				</li>
+				<li><i><a href="/"><img src="../images/3.jpg"></a></i>
+					<h3><a href="#">Javascript有哪几种数据类型</a></h3>
+					<p>基本数据类型：字符串 String、数字 Number、布尔Boolean复合数据类型：数组 Array、对象 Object特殊数据类型：Null 空对象、Undefined 未定义</p>
+				</li>
+				<li><i><a href="/"><img src="../images/8.jpg"></a></i>
+					<h3><a href="/">PHP语言的一大优势是跨平台，什么是跨平台？</a></h3>
+					<p>PHP的运行环境最优搭配为Apache+MySQL+PHP，此运行环境可以在不同操作系统（例如windows、Linux等）上配置，不受操作系统的限制，所以叫跨平台</p>
+				</li>
+				<div class="pagelist"><a href="#" class="curPage">1</a>&nbsp;&nbsp;<a
+					 href="#" onclick="page(2)">2</a>&nbsp;&nbsp;<a href="#" onclick="page(3)">3</a>&nbsp;&nbsp;<a href="#" onclick="page(4)">4</a>&nbsp;&nbsp;<a
+					 href="#" onclick="page(5)">5</a>&nbsp;&nbsp;<a href="#" onclick="page(6)">6</a>&nbsp;&nbsp;<a href="#" onclick="page(7)">7</a>&nbsp;&nbsp;<a
+					 href="#" onclick="page(8)">8</a>&nbsp;&nbsp;<a href="#" onclick="page(9)">9</a>&nbsp;&nbsp;<a href="#" onclick="page(2)">下一页</a></div>
+			</main>
+		</article>
+		<footer>
+			<p>Design by <a href="#" target="_blank">Myblog页面</a> <a href="#">无备号滑稽</a></p>
+		</footer>
+		<a href="#" class="cd-top">Top</a>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>一个页面</title>
+		<link href="../css/base.css" rel="stylesheet">
+		<link href="../css/index.css" rel="stylesheet">
+		<script src="../js/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="../js/comm.js"></script>
+	</head>
+	<body>
+		<header class="header-navigation" id="header">
+			<nav>
+				<div class="logo"><a href="#">myblog</a></div>
+				<h2 id="mnavh"><span class="navicon"></span></h2>
+				<ul id="starlist">
+					<li><a href="../index.html">网站首页</a></li>
+					<li><a href="share.html">我的相册</a></li>
+					<li><a href="list.html">我的记录</a></li>
+					<li><a href="about.html">关于我</a></li>
+					<li><a href="gbook.html">留言</a></li>
+					 <li><a href="info.html">自言自语</a></li>
+					<li><a href="infopic.html">爱好</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<aside class="l_box">
+				<div class="about_me">
+					<h2>关于我</h2>
+					<ul>
+						<i><img src="../images/4.jpg"></i>
+						<p><b>my</b>，一个咸鱼般的人。</p>
+					</ul>
+				</div>
+				<div class="wdxc">
+					<h2>我的相册</h2>
+					<ul>
+						<li><a href="#"><img src="../images/7.jpg"></a></li>
+						<li><a href="#"><img src="../images/8.jpg"></a></li>
+						<li><a href="#"><img src="../images/9.jpg"></a></li>
+						<li><a href="#"><img src="../images/10.jpg"></a></li>
+						<li><a href="#"><img src="../images/11.jpg"></a></li>
+						<li><a href="#"><img src="../images/12.jpg"></a></li>
+					</ul>
+				</div>
+				<div class="search">
+					<form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+						<input name="keyboard" id="keyboard" class="input_text" value="请输入关键字词" style="color: rgb(153, 153, 153);"
+						 onfocus="if(value=='请输入关键字词'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字词'}"
+						 type="text">
+						<input name="show" value="title" type="hidden">
+						<input name="tempid" value="1" type="hidden">
+						<input name="tbname" value="news" type="hidden">
+						<input name="Submit" class="input_submit" value="搜索" type="submit">
+					</form>
+				</div>
+				<div class="fenlei">
+					<h2>文章分类</h2>
+					<ul>
+						<li><a href="#">学无止境（33）</a></li>
+						<li><a href="#">日记（19）</a></li>
+						<li><a href="#">慢生活（520）</a></li>
+						<li><a href="#">美文欣赏（40）</a></li>
+					</ul>
+				</div>
+				<div class="tuijian">
+					<h2>站长推荐</h2>
+					<ul>
+						<li><a href="https://www.baidu.com/">万能的百度</a></li>
+						<li><a href="https://www.w3school.com.cn/js/index.asp">w3school</a></li>
+						<li><a href="http://fontawesome.dashgame.com/">Font Awesome,一套绝佳的图标字体库和CSS框架</a></li>
+						<li><a href="http://es6.ruanyifeng.com/">ECMAScript 6 入门</a></li>
+						<li><a href="https://cn.vuejs.org/">vue.js官网</a></li>
+						<li><a href="https://www.imooc.com/">贵却还不错的慕课网</a></li>
+						<li><a href="https://www.liaoxuefeng.com/wiki/1022910821149312">廖雪峰的javascript教程</a></li>
+						<li><a href="https://www.jianshu.com/">简书，一些知识的集合</a></li>
+					</ul>
+				</div>
+				<div class="links">
+					<h2>友情链接</h2>
+					<ul>
+						<a href="https://www.baidu.com/" title="https://www.baidu.com/">解决困难的搜索通道</a> <a href="https://developer.mozilla.org/zh-CN/"
+						 title="https://developer.mozilla.org/zh-CN/">MDN</a>
+					</ul>
+				</div>
+				<div class="guanzhu">
+					<h2>扫码关注么么哒？</h2>
+					<ul>
+						<img src="images/wx.jpg">
+					</ul>
+				</div>
+			</aside>
+			<main class="r_box">
+				<div class="about">
+					<h1>何浩毅</h1>
+					<p>男，一个20应届生！一直潜心研究web前端技术，一直在自学以及询问大牛们一些问题的解决以及入手方向。大家也亲切的叫我&ldquo;小毅&rdquo;。<br />
+						<br />
+						学习前端因为本专业，也是掌握知识最多的一个行业。入了这一行，就深深的喜欢上它。我喜欢一句话&ldquo;冥冥中该来则来，无处可逃&rdquo;。<br />
+						<br />
+						<img src="../images/3.jpg">
+						<br />
+						每次有人问起如何做好一个前端时，我想说的是也是我要遵守的，一是&ldquo;代码&rdquo;，一定要简单，布局要合理。二是&ldquo;保持好奇心&rdquo;，我相信在前端中最重要的属性之一就是好奇心，新的工具、插件、技术和语言几乎每天都会出现。重要的是要对所有的新事物保持开放的态度，并努力去探索和理解它们。而与此同时，前端开发的美妙之处在于它的发展速度非常快。这意味着你可以很快成为专家，但你的技能也会很快过时。<br />
+						<br />
+						丰富自己的开发技能&nbsp;
+						前端开发以及与之相关的一切都只是一项技能，无论你相信与否，都是可以学习的。为了成长，你需要对自己投资。我不是说在昂贵的课程、研讨会或书籍上花钱，我更想投资你的时间。没有捷径可走，研究表明，掌握一项技能需要大约10000个小时，每周练习40小时的话，这大约需要4年的时间。准备好熬夜浏览其他网站，尝试新的插件和框架，阅读web开发博客，收听播客，以及咀嚼成千上万的推文。
+							<p>因为说总是那么简单</p>
+							<p>小贴士:&nbsp; 一周安排一点时间去提高自己的开发技能。我知道，如果你的老板不支持你，这可能会更加困难，但要准备好把你的空闲时间投入到你的事业中去。</p>
+
+					<br />
+					&nbsp;
+				</div>
+			</main>
+		</article>
+		<footer>
+		  <p>Design by <a href="#">个人博客</a> <a href="#">没有备号滑稽/a></p>
+		</footer>
+		<a href="#" class="cd-top">Top</a>
+	</body>
+</html>
